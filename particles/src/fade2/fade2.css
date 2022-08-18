@@ -1,0 +1,29 @@
+.see{
+    color: aqua;
+}
+
+.fade2-enter{
+    opacity: 0;
+}
+
+.fade2-enter-active{
+    opacity: .5;
+    transition: opacity 300ms;
+}
+
+.fade2-enter-done{
+    opacity: 1;
+}
+
+.fade2-exit{
+    opacity: 1;
+}
+
+.fade2-exit{
+    opacity: .5;
+    transition: opacity 300ms;
+}
+
+.fade2-exit-done{
+    opacity: 0;
+}

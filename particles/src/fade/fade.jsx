@@ -10,7 +10,7 @@ function Fade() {
          <button onClick={() => setShowMessage(!showMessage)}>
             Show Message
           </button>
-         <CSSTransition in={showMessage} timeout={300} classNames="example" unmountOnExit>
+         <CSSTransition in={showMessage} timeout={300} className="text" unmountOnExit>
             <p>Hello, I am a message that animates with CSSTransition!</p>
          </CSSTransition>
       </div>
